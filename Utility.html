@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Exopay - Dashboard</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="description" content="User EvonexPay" />
+        <meta name="author" content="Potenza Global Solutions" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- fontawesome Icon -->
+        <script src="https://kit.fontawesome.com/997b229808.js" crossorigin="anonymous"></script>
+        <!-- bootstrap-icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <!-- app favicon -->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+        <!-- plugin stylesheets -->
+        <link rel="stylesheet" type="text/css" href="assets/css/vendors.css" />
+        <!-- app style -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <!-- fornt awesome -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <!-- Font awesome ends -->
+        <!-- bootstrap-icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <!-- app favicon -->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <!-- plugin stylesheets -->
+        <link rel="stylesheet" type="text/css" href="assets/css/vendors.css" />
+        <!-- app style -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/update.css" />
+        <!-- chart -->
+    </head>
+    <body>
+        <!-- begin app -->
+        <div class="app">
+            <!-- begin app-wrap -->
+            <div class="app-wrap">
+                <!-- begin app-header -->
+                <header class="app-header top-bar">
+                    <!-- begin navbar -->
+                    <nav class="navbar navbar-expand-md">
+                        <!-- begin navbar-header -->
+                        <div class="navbar-header d-flex align-items-center">
+                            <a href="javascript:void:(0)" class="mobile-toggle"><i class="ti ti-align-right"></i>
+                            </a>
+                            <a class="navbar-brand" href="#">
+                                <img src="assets/img/logo.png" draggable="false" class="img-fluid logo-desktop" alt="logo" />
+                                <img src="assets/img/logo.png" draggable="false" class="img-fluid logo-mobile" alt="logo" />
+                            </a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="ti ti-align-left"></i>
+                        </button>
+                        <!-- end navbar-header -->
+                        <!-- begin navigation -->
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="navigation d-flex">
+                                <ul class="navbar-nav nav-left">
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0)" class="nav-link sidebar-toggle">
+                                            <i class="ti ti-align-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                               <div class="mainHeader1">
+                                <form class="searchHeader">
+                                    <input type="search" placeholder="Search">
+                                    <button type="submit"><i class="bi bi-search"></i></button>
+                                </form>
+                               </div>
+                                <ul class="navbar-nav nav-right ml-auto">
+                                    <li class="nav-item dropdown">
+                                        <div class="dropdown-menu extended animated fadeIn" aria-labelledby="navbarDropdown">
+                                            
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fe fe-bell"></i>
+                                            <span class="notify">
+                                                        <span class="blink"></span>
+                                            <span class="dot"></span>
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-menu extended animated fadeIn" aria-labelledby="navbarDropdown">
+                                            <ul>
+                                                <li class="dropdown-header bg-gradient p-4 text-white text-left">Notifications
+                                                    <a href="#" class="float-right btn btn-square btn-inverse-light btn-xs m-0">
+                                                        <span class="font-13"> Clear all</span></a>
+                                                </li>
+                                                <li class="dropdown-body min-h-240 nicescroll">
+                                                    <ul class="scrollbar scroll_dark max-h-240">
+                                                        <li>
+                                                            <a href="javascript:void(0)">
+                                                                <div class="notification d-flex flex-row align-items-center">
+                                                                    <div class="notify-icon bg-img align-self-center">
+                                                                        <div class="bg-type bg-type-md">
+                                                                            <span>HY</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="notify-message">
+                                                                        <p class="font-weight-bold">New registered user</p>
+                                                                        <small>Just now</small>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)">
+                                                                <div class="notification d-flex flex-row align-items-center">
+                                                                    <div class="notify-icon bg-img align-self-center">
+                                                                        <div class="bg-type bg-type-md bg-success">
+                                                                            <span>GM</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="notify-message">
+                                                                        <p class="font-weight-bold">New invoice received</p>
+                                                                        <small>22 min</small>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)">
+                                                                <div class="notification d-flex flex-row align-items-center">
+                                                                    <div class="notify-icon bg-img align-self-center">
+                                                                        <div class="bg-type bg-type-md bg-danger">
+                                                                            <span>FR</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="notify-message">
+                                                                        <p class="font-weight-bold">Server error report</p>
+                                                                        <small>7 min</small>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)">
+                                                                <div class="notification d-flex flex-row align-items-center">
+                                                                    <div class="notify-icon bg-img align-self-center">
+                                                                        <div class="bg-type bg-type-md bg-info">
+                                                                            <span>HT</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="notify-message">
+                                                                        <p class="font-weight-bold">Database report</p>
+                                                                        <small>1 day</small>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)">
+                                                                <div class="notification d-flex flex-row align-items-center">
+                                                                    <div class="notify-icon bg-img align-self-center">
+                                                                        <div class="bg-type bg-type-md">
+                                                                            <span>DE</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="notify-message">
+                                                                        <p class="font-weight-bold">Order confirmation</p>
+                                                                        <small>2 day</small>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-footer">
+                                                    <a class="font-13" href="javascript:void(0)"> View All Notifications
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown user-profile">
+                                        <a href="javascript:void(0)" class="nav-link dropdown-toggle " id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img src="assets/img/avtar/01.jpg" alt="avtar-img">
+                                            <span class="bg-success user-status"></span>
+                                        </a>
+                                        <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdown">
+                                            <div class="bg-gradient px-4 py-3">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <div class="mr-1">
+                                                        <h4 class="text-white mb-0">Mr Hamzat</h4>
+                                                        <small class="text-white">hmztadeleke@gmail.com</small>
+                                                    </div>
+                                                    <a href="#" class="text-white font-20 tooltip-wrapper" data-toggle="tooltip" data-placement="top" title="" data-original-title="Logout"> <i
+                                                    class="zmdi zmdi-power"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="p-4">
+                                                <a class="dropdown-item d-flex nav-link" href="javascript:void(0)">
+                                                    <i class="fa fa-user pr-2 text-success"></i> Profile</a>
+                                                <a class="dropdown-item d-flex nav-link" href="javascript:void(0)">
+                                                    <i class="fa fa-envelope pr-2 text-primary"></i> Inbox
+                                                    <span class="badge badge-primary ml-auto">6</span>
+                                                </a>
+                                                <a class="dropdown-item d-flex nav-link" href="javascript:void(0)">
+                                                    <i class=" ti ti-settings pr-2 text-info"></i> Settings
+                                                </a>
+                                                <a class="dropdown-item d-flex nav-link" href="javascript:void(0)">
+                                                    <i class="fa fa-compass pr-2 text-warning"></i> Need help?</a>
+                                                <div class="row mt-2">
+                                                    <div class="col">
+                                                        <a class="bg-light p-3 text-center d-block" href="#">
+                                                            <i class="fe fe-mail font-20 text-primary"></i>
+                                                            <span class="d-block font-13 mt-2">My messages</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col">
+                                                        <a class="bg-light p-3 text-center d-block" href="#">
+                                                            <i class="fe fe-plus font-20 text-primary"></i>
+                                                            <span class="d-block font-13 mt-2">Compose new</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end navigation -->
+                    </nav>
+                    <!-- end navbar -->
+                </header>
+                <!-- end app-header -->
+                <!-- begin app-container -->
+                <div class="app-container">
+                    <!-- begin app-nabar -->
+                    <aside class="app-navbar">
+                        <!-- begin sidebar-nav -->
+                        <div class="sidebar-nav scrollbar scroll_light">
+                            <ul class="metismenu " id="sidebarNav">
+                                <li>
+                                    <a href="index" aria-expanded="false">
+                                        <img src="assets/img/V-a.png" draggable="false" alt="">
+                                        <span class="nav-title">
+                                            Dashboard
+                                        </span>
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="wallet" aria-expanded="false">
+                                        <img src="assets/img/wallect.png" draggable="false" alt="">
+                                        <span class="nav-title">
+                                            Wallet
+                                        </span>
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="Market" aria-expanded="false">
+                                        <img src="assets/img/V-b.png" draggable="false" alt="">
+                                        <span class="nav-title">
+                                            Market
+                                        </span>
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a class="has-arrow" href="javascript:void(0)"  aria-expanded="false">
+                                        <img src="assets/img/V-d.png" draggable="false" alt="">
+                                        <span class="nav-title">
+                                            Services
+                                        </span>
+                                    </a>
+                                    <ul aria-expanded="false">
+                                        <li>
+                                            <a href="#">
+                                                Data Bundle
+                                            </a> 
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Airtime Purchase
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="Utility">
+                                                Utility Bills
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="Transaction" aria-expanded="false">
+                                        <img src="assets/img/trans.png" draggable="false" alt="">
+                                        <span class="nav-title">
+                                            Transaction History 
+                                        </span>
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="notifications" aria-expanded="false">
+                                        <img src="assets/img/V-e.png" draggable="false" alt="">
+                                        <span class="nav-title">
+                                            Notifications 
+                                        </span>
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a class="has-arrow" href="javascript:void(0)"      aria-expanded="false">
+                                        <img src="assets/img/V-f.png" draggable="false" alt="">
+                                        <span class="nav-title">
+                                            Settings
+                                        </span>
+                                    </a>
+                                    <ul aria-expanded="false">
+                                        <li>
+                                            <a href="Edit-Profile">
+                                                Edit profile
+                                            </a> 
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Log out
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end sidebar-nav -->
+                    </aside>
+                    <!-- end app-navbar -->
+                    <!-- begin app-main -->
+                    <div class="app-main" id="main">
+                        <!-- begin container-fluid -->
+                        <div class="container-fluid">
+                            <!-- begin row -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="line-div">
+                                        <h4 class="hey">Utility Bills
+                                            <span>
+                                                19/08/2022
+                                            </span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- begin row -->
+                            <!-- Advertising -->
+                           <!-- Advertising -->
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="color icon" style="background-color: #FFE2FD;">
+                                        <div class="text">
+                                            <h4>Utility Bills</h4>
+                                            <h5>
+                                                700
+                                            </h5>
+                                            <div class="user">
+                                                Users
+                                            </div>
+                                            <div class="btn-div">
+                                                <img src="assets/img/icon3.png" draggable="false">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="color icon" style="background-color: #23E97B;">
+                                        <div class="text">
+                                            <h4>Total Amount</h4>
+                                            <h5>
+                                                $10,00
+                                            </h5>
+                                            <div class="user">
+                                                Buying
+                                            </div>
+                                            <div class="btn-div">
+                                                <img src="assets/img/gross.png" draggable="false">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Advertising Ends -->
+
+                            <!-- Services -->
+                            <div class="row">
+                                <div class="col-xxl-12 mb-30">
+                                    <div class="card card-statistics h-100 mb-0 currency-price">
+                                        <div class="card-header d-flex justify-content-between">
+                                            <div class="card-heading">
+                                                <h4 class="card-title">Utility Category</h4>
+                                            </div>
+                                            <div class="dropdown">
+                                                <a class="p-2" href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="ti ti-more-alt"></i>
+                                                </a>
+                                                <div class="dropdown-menu custom-dropdown dropdown-menu-right p-4">
+                                                    <h6 class="mb-1">Action</h6>
+                                                    <a class="dropdown-item" href="#!"><i class="fa-fw fa fa-file-o pr-2"></i>View reports</a>
+                                                    <a class="dropdown-item" href="#!"><i class="fa-fw fa fa-edit pr-2"></i>Edit reports</a>
+                                                    <a class="dropdown-item" href="#!"><i class="fa-fw fa fa-bar-chart-o pr-2"></i>Statistics</a>
+                                                    <h6 class="mb-1 mt-3">Export</h6>
+                                                    <a class="dropdown-item" href="#!"><i class="fa-fw fa fa-file-pdf-o pr-2"></i>Export to PDF</a>
+                                                    <a class="dropdown-item" href="#!"><i class="fa-fw fa fa-file-excel-o pr-2"></i>Export to CSV</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body pt-0">
+                                            <div class="tab nav-border-bottom">
+                                                <ul class="nav nav-tabs nav-fill" role="tablist">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active show" id="home-02-tab" data-toggle="tab" href="#home-02" role="tab" aria-controls="home-02" aria-selected="true">
+                                                            <b>Internet</b> </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" id="profile-02-tab" data-toggle="tab" href="#profile-02" role="tab" aria-controls="profile-02" aria-selected="false"><b>Electricity Bills</b> </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" id="rice-03-tab" data-toggle="tab" href="#rice-03" role="tab" aria-controls="rice-03" aria-selected="false"><b>TV Subscription</b> </a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content">
+                                                    <div class="tab-pane fade active show pt-3" id="home-02" role="tabpanel" aria-labelledby="home-02-tab">
+                                                        <div class="row">
+                                                            <div class="col-xs-6">
+                                                                <div class=" mb-3">
+                                                                    <label>Select Your Bills Paying</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <label class="input-group-text px-3" for="bacs">M</label>
+                                                                        </div>
+                                                                        <select class="form-control" id="bacs">
+                                                                            <option>MTN</option>
+                                                                            <option>Glo</option>
+                                                                            <option>Airtel</option>
+                                                                            <option>9mobile</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class=" mb-3">
+                                                                    <label>Choose Payment Method</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <label class="input-group-text px-3" for="visa1">VISA</label>
+                                                                        </div>
+                                                                        <select class="form-control" id="visa1">
+                                                                            <option>VISA Card</option>
+                                                                            <option>Credit Card</option>
+                                                                            <option>Debit Card</option>
+                                                                            <option>Master Card</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class=" mb-3">
+                                                                    <label>Phone Number</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <label class="input-group-text px-3">P</label>
+                                                                        </div>
+                                                                        <input type="tel" class="form-control" placeholder="090" aria-label="Username">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xs-6">
+                                                                <div class=" mb-3">
+                                                                    <label>Amount</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <select class="form-control text-primary">
+                                                                                <option selected>A</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Enter amount buying">
+                                                                    </div>
+                                                                </div>
+                                                                <div class=" mb-3">
+                                                                    <label>Sender Name</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <select class="form-control text-primary">
+                                                                                <option selected>A</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Enter your name">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <button class="btn btn-success text-uppercase mt-1">Subscribe</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade pt-3" id="profile-02" role="tabpanel" aria-labelledby="profile-02-tab">
+                                                        <div class="row">
+                                                            <div class="col-xs-6">
+                                                                <div class=" mb-3">
+                                                                    <label>--Select a Service--</label>
+                                                                    <div class="input-group">
+                                                                        <select class="form-control" id="bacs1">
+                                                                            <option>AEDC (Abuja) Prepaid</option>
+                                                                            <option>AEDC (Abuja) Postpaid</option>
+                                                                            <option>EEDC (Enugu) Prepaid</option>
+                                                                            <option>EEDC (Enugu) Postpaid</option>
+                                                                            <option>EKEDC (Eko) Prepaid</option>
+                                                                            <option>EKEDC (Eko) Postpaid</option>
+                                                                            <option>IBEDC (Ibadan) Prepaid</option>
+                                                                            <option>IBEDC (Ibadan) Postpaid</option>
+                                                                            <option>IKEDC (Ikeja) Prepaid</option>
+                                                                            <option>IKEDC (Ikeja) Postpaid</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class=" mb-3">
+                                                                    <label>Choose Payment Method</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <label class="input-group-text px-3" for="visa">VISA</label>
+                                                                        </div>
+                                                                        <select class="form-control" id="visa">
+                                                                            <option>VISA Card</option>
+                                                                            <option>Credit Card</option>
+                                                                            <option>Debit Card</option>
+                                                                            <option>Master Card</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class=" mb-3">
+                                                                    <label>*Meter / Smartcard Number</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <label class="input-group-text px-3"><i class="ti ti-wallet"></i></label>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Mgwe7856fweF5fwfe5457KuFG" aria-label="Username">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xs-6">
+                                                                <div class=" mb-3">
+                                                                    <label>Email</label>
+                                                                    <div class="input-group">
+                                                                        <input type="email" class="form-control" placeholder="Enter your email">
+                                                                    </div>
+                                                                </div>
+                                                                <div class=" mb-3">
+                                                                    <label>State</label>
+                                                                    <div class="input-group">
+                                                                        <select class="form-control">
+                                                                            <option>Abia</option>
+                                                                            <option>Lagos</option>
+                                                                            <option>Enugu</option>
+                                                                            <option>Ibadan</option>
+                                                                            <option>Kogi</option>
+                                                                            <option>Kano</option>
+                                                                            <option>Kaduna</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class=" mb-3">
+                                                                    <label>Amount</label>
+                                                                    <div class="input-group">
+                                                                        <input type="email" class="form-control" placeholder="Enter your amount">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <button class="btn btn-success text-uppercase mt-1">Subscribe</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade pt-3" id="rice-03" role="tabpanel" aria-labelledby="rice-03-tab">
+                                                        <div class="row">
+                                                            <div class="col-xs-6">
+                                                                <div class=" mb-3">
+                                                                    <label>Select Your Tv Subscription</label>
+                                                                    <div class="input-group">
+                                                                        <select class="form-control" id="bacs">
+                                                                            <option>Gotv</option>
+                                                                            <option>Dstv</option>
+                                                                            <option>Startime</option>
+                                                                            <option>Others</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class=" mb-3">
+                                                                    <label>Subscriber Name</label>
+                                                                    <div class="input-group">
+                                                                        <input type="text" class="form-control" placeholder="Mgwe7856fweF5fwfe5457KuFG" aria-label="Username">
+                                                                    </div>
+                                                                </div>
+                                                                <div class=" mb-3">
+                                                                    <label>Choose Payment Method</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <label class="input-group-text px-3" for="visa1">VISA</label>
+                                                                        </div>
+                                                                        <select class="form-control" id="visa1">
+                                                                            <option>VISA Card</option>
+                                                                            <option>Credit Card</option>
+                                                                            <option>Debit Card</option>
+                                                                            <option>Master Card</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xs-6">
+                                                                <div class=" mb-3">
+                                                                    <label>Phone Number</label>
+                                                                    <div class="input-group">
+                                                                        <input type="tel" class="form-control" placeholder="Exchange Amount">
+                                                                    </div>
+                                                                </div>
+                                                                <div class=" mb-3">
+                                                                    <label>Amount</label>
+                                                                    <div class="input-group">
+                                                                        <input type="text" class="form-control" placeholder="Exchange Amount">
+                                                                    </div>
+                                                                </div>
+                                                                <div class=" mb-3">
+                                                                    <label>Decoder Pin</label>
+                                                                    <div class="input-group">
+                                                                        <input type="text" class="form-control" placeholder="1234567890" aria-label="Username">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <button class="btn btn-success text-uppercase mt-1">Subscribe</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row crypto-currency">
+                                    <div class="col-xxl-8">
+                                        <div class="card card-statistics apexchart-tool-force-top">
+                                            <div class="card-header">
+                                                <h4 class="card-title">Ripple Live Chart</h4>
+                                            </div>
+                                            <div class="card-body pt-0">
+                                                <div class="apexchart-wrapper">
+                                                    <div id="crypto-demo1-candlestick"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-4">
+                                        <div class="card card-statistics apexchart-tool-force-top">
+                                            <div class="card-header">
+                                                <h4 class="card-title">Recent Transaction</h4>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="bg-light p-3 rounded m-b-20">
+                                                    <div class="d-sm-flex justify-content-between">
+                                                        <div class="transition-left">
+                                                            <span>Dec 12 2018</span>
+                                                            <h5 class="mt-2 mb-0">4012001036275556</h5>
+                                                        </div>
+                                                        <div class="transition-right text-sm-right">
+                                                            <strong class="text-dark d-block mb-1"> <i class="fa fa-long-arrow-right pr-2"></i> 0.567 BTC </strong>
+                                                            <a class="text-primary" href="#!"> View more</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bg-light p-3 rounded m-b-20">
+                                                    <div class="d-sm-flex justify-content-between">
+                                                        <div class="transition-left">
+                                                            <span>Dec 18 2018</span>
+                                                            <h5 class="mt-2 mb-0">4012001038488884 </h5>
+                                                        </div>
+                                                        <div class="transition-right text-sm-right">
+                                                            <strong class="text-dark d-block mb-1"> <i class="fa fa-long-arrow-right pr-2"></i> 1.567 LTC </strong>
+                                                            <a class="text-primary" href="#!"> View more</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bg-light p-3 rounded m-b-20">
+                                                    <div class="d-sm-flex justify-content-between">
+                                                        <div class="transition-left">
+                                                            <span>Dec 31 2018</span>
+                                                            <h5 class="mt-2 mb-0">4012001038443335</h5>
+                                                        </div>
+                                                        <div class="transition-right text-sm-right">
+                                                            <strong class="text-dark d-block mb-1"> <i class="fa fa-long-arrow-right pr-2"></i> 67 NEO </strong>
+                                                            <a class="text-primary" href="#!"> View more</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bg-light p-3 rounded">
+                                                    <div class="d-sm-flex justify-content-between">
+                                                        <div class="transition-left">
+                                                            <span>Jan 08 2019</span>
+                                                            <h5 class="mt-2 mb-0">4012001036983332</h5>
+                                                        </div>
+                                                        <div class="transition-right text-sm-right">
+                                                            <strong class="text-dark d-block mb-1"> <i class="fa fa-long-arrow-right pr-2"></i> 2.7 RIP </strong>
+                                                            <a class="text-primary" href="#!"> View more</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Services Ends -->
+                            <!-- end row -->
+                            
+                        </div>
+                        <!-- end container-fluid -->
+                    </div>
+                    <!-- end app-main -->
+                </div>
+                <!-- end app-container -->
+                <!-- begin footer -->
+                <footer class="footer">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 text-center">
+                           <div class="text-center">
+                                Copyright © 2022 EvonexPay | All Right Reserved
+                           </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end footer -->
+            </div>
+            <!-- end app-wrap -->
+        </div>
+        <!-- end app -->
+
+        <!-- plugins -->
+        <script src="assets/js/vendors.js"></script>
+
+        <!-- custom app -->
+        <script src="assets/js/app.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    </body>
+</html>
