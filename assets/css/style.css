@@ -34398,7 +34398,7 @@ table.dataTable thead .sorting_desc_disabled:before {
 label{
     color: #000 !important;
 }
-@media (max-width:800px) {
+@media (max-width:765px) {
     .top-bar .navbar .navbar-header {
         background:rgb(250, 252, 249);;
     }
